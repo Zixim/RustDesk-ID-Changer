@@ -28,7 +28,7 @@ function ChangeID($option) {
 
 	Restart-Service RustDesk
 	
-	Write-Host "DONE`n"	
+	Write-Host "DONE`nPlease relaunch Rustdesk.`n"
 }
 
 # If we're not elevated, explain to user and exit.
